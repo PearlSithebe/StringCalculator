@@ -14,7 +14,7 @@ class StringCalculator{
         for ( let i = 0; i < digit.length; i++){
             sum += parseInt(digit[i]);
             if (digit[i]< 0){
-                // negArr.push(digit[i])
+            
                 throw new Error("negatives not allowed"+ neg)
                 
         } }
