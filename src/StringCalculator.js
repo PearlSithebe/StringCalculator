@@ -1,8 +1,6 @@
 class StringCalculator{
     constructor(){}
     Add(numbers) {
-       
-        let negArr = [];
         var sum = 0;
             if (numbers == "") {
                 return  0;}
